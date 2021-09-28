@@ -6,3 +6,4 @@ set noswapfile
 set tabstop=2
 set expandtab
 set ruler
+set mouse-=a
