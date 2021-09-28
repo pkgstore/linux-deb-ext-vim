@@ -1,0 +1,18 @@
+Source: ext-vim
+Section: editors
+Priority: optional
+Maintainer: Package Store <kitsune.solar@gmail.com>
+Uploaders: Package Store <kitsune.solar@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Homepage: https://pkgstore.gitlab.io
+Vcs-Browser: https://github.com/pkgstore/linux-deb-ext-vim
+Vcs-Git: https://github.com/pkgstore/linux-deb-ext-vim.git
+Rules-Requires-Root: no
+
+Package: ext-vim
+Architecture: all
+Depends: vim
+        ,${misc:Depends}
+Description: META-package for install and configure Vim
+ META-package for install and configure Vim.
